@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "mjahmad",
+    "name": "MJ-Ahmad",
     "email": "mjahmad2024@outlook.com"
   },
   "license": "MIT",
@@ -36,5 +36,18 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1"
-  }
+  },
+  "publishers": [
+    {
+      "name": "@electron-forge/publisher-github",
+      "config": {
+        "repository": {
+          "owner": "MJ-Ahmad",
+          "name": "docs"
+        },
+        "prerelease": false,
+        "draft": true
+      }
+    }
+  ]
 }

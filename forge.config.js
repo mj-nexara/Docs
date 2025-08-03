@@ -29,9 +29,10 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'mj-nexara',
+          owner: 'MJ-Ahmad',
           name: 'docs'
         },
+        authToken: process.env.GITHUB_TOKEN,
         prerelease: false,
         draft: true
       }
